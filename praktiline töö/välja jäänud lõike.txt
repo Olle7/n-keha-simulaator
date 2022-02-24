@@ -1,0 +1,9 @@
+	Järgneva printsiibi mõtles autor ise välja. See on vajalik ainult nende füüsikaliste süsteemide ,mille ruum ei ole 3-mõõtmeline, kirjeldamiseks. Pole võimalik mistahes eksperimendiga kindlaks määrata ,et kas füüsikaline süsteem on selline D´st enama mõõtmelise ruumiga süsteem, mille kõik punktid, mis ei asu alal l on tühjad või hoopis D-mõõtmelise ruumiga füüsikaline süsteem. l peab olema selline ala ,et iga sirge ,mil on rohkem kui 1 ühist punkti alaga l, kõik punktid on ühised alaga l :
+
+
+	Järgneva printsiibi mõtles autor ise välja. See on vajalik ainult nende füüsikaliste süsteemide ,mille ruum ei ole 3-mõõtmeline, kirjeldamiseks. Pole võimalik mistahes eksperimendiga kindlaks määrata ,et kas füüsikalise süsteemi ruumis on selliseid punkte, mis ei kuulu ühtegi sellisesse sirgesse, mis :
+
+
+
+#kirjast Hohmannile
+mida tähendab gradient magnetpotensiaalivektorvälja ja punktlaengu kiiruse skalaar korrutisest? Niipalju kui mina olen aru saanud saab gradienti võtta ainult (skalaar)väljast, sest see sisaldab ruumikaudseid tuletisi. 

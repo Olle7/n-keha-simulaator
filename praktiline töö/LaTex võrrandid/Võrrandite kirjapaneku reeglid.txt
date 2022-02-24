@@ -1,0 +1,39 @@
+font: Helvetica
+taust: läbipaistev või valge
+
+
+
+texti värv:
+	füüsika konstandid: tumesinised
+	dummyvariables: tumeoranş
+	muu: must
+
+
+
+tähistused:
+	punktmasside arv: N
+	konkreetne punktmass: N_1
+	punktmasside dummyvariable: i_n
+	ruumi mõõtmete arv: D
+	konkreetne tuumi mõõde: D_1
+	ruumi mõõtmete dummy variable: i_d
+	konkreetne aeg T_1
+	aja dummyvariable: i_t
+
+	nullile lähenev suurus: d
+
+	elektriväli: A_E
+	elektrimagnetväli: B_E
+	gravitatsiooniväli: A_G
+
+
+
+Argumentide järjekord: (AEG;ASUKOHT;SUUND) või (AEG;PUNKTMASS;SUUND)
+
+
+
+indeksite järjekord [vastastikmõju liik] [vastastikmõju suund]
+
+
+
+vektorite operatsioone mitte kasutada.

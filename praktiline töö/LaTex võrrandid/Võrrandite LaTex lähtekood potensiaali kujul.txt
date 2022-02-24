@@ -1,0 +1,50 @@
+#elektrilise ja gravitatsioonilise jõu summa
+#1. osa
+\lim_{{\color{DarkOrange} d}\to0}\frac{X(T_1+2\cdot{\color{DarkOrange}d};N_1;D_1)-2\cdot X(T_1+{\color{DarkOrange}d};N_1;D_1)+X(T_1;N_1;D_1)}{{\color{DarkOrange}d}^2}=
+\lim_{{\color{DarkOrange}d} \to 0}4\cdot \sum_{{\color{DarkOrange}i_d}=1}^D(\frac{(X(T_1+{\color{DarkOrange}d};N_1;D_1)-X(T_1;N_1;D_1))\cdot(A_G(T_1;X(N_1)+x(D_1)\cdot {\color{DarkOrange}d};{\color{DarkOrange} i_d})-A_G(T_1;X(N_1);{\color{DarkOrange} i_d}))}{{\color{DarkOrange} d}^2})-
+#2. osa
+A_G(T_1+{\color{DarkOrange}d};\vec X(N_1);D_1)-\varphi_G(T_1;\vec X(N_1)+x(D_1)\cdot  {\color{DarkOrange}d})+A_G(T_1;\vec X(N_1);D_1)+\varphi_G(T_1;\vec X(N_1)))+
+#3. osa
+\frac{q(N_1)}{m(N_1)\cdot{\color{DarkOrange}d}}\cdot(\sum_{{\color{DarkOrange}i_d}=1}^D(\frac{(X(T_1+{\color{DarkOrange}d};N_1;D_1)-X(T_1;N_1;D_1))\cdot(A_E(T_1;X(N_1)+x(D_1)\cdot {\color{DarkOrange}d};{\color{DarkOrange}i_d})-A_E(T_1;X(N_1);{\color{DarkOrange}i_d}))}{{\color{DarkOrange}d}})-
+# 4. osa
+A_E(T_1+{\color{DarkOrange}d};\vec X(N_1);D_1)-\varphi_E(T_1;\vec X(N_1)+x(D_1)\cdot  {\color{DarkOrange}d})+A_E(T_1;\vec X(N_1);D_1)+\varphi_E(T_1;\vec X(N_1)))
+
+
+Maxwelli I lorentz gauge gravitatsioon
+\lim_{{\color{DarkOrange}d}\to0}\frac{\varphi_G(T_1+2\cdot{\color{DarkOrange}d};\vec X)-2\cdot \varphi_G(T_1+{\color{DarkOrange}d};\vec X)+\varphi_G(T_1;\vec X)}
+{{\color{DarkOrange} d}^2}=\lim_{{\color{DarkOrange} d}\to 0} \sum_{{\color{DarkOrange} i_d}=1}^D(\frac{\varphi_G(T_1;\vec X(N_1)+2\cdot x(D_1)\cdot{\color{DarkOrange}d})-2\cdot \varphi_G
+(T_1;\vec X(N_1)+x(D_1)\cdot{\color{DarkOrange} d})+\varphi_G(T_1;N_1)}{{\color{DarkOrange} d}^2}) \cdot{\color{DarkBlue}c}^2+\sum_{{\color{DarkOrange} i_n}=1}^N(m({\color
+{DarkOrange}i_n})\cdot(1+{\color{DarkOrange}d})^{-\frac{\sum_
+{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})\cdot
+\frac{({\color{DarkBlue} -k_G})\cdot\pi^{\frac{2-D}{2}} \cdot 4}{{\color{DarkOrange} d}^{D}}
+
+
+Maxwelli I lorentz gauge gravitatsioon
+\lim_{{\color{DarkOrange}d}\to0}\frac{\varphi_G(T_1+2\cdot{\color{DarkOrange}d};\vec X)-2\cdot \varphi_G(T_1+{\color{DarkOrange}d};\vec X)+\varphi_G(T_1;\vec X)}
+{{\color{DarkOrange} d}^2}=\lim_{{\color{DarkOrange} d}\to 0} \sum_{{\color{DarkOrange} i_d}=1}^D(\frac{\varphi_G(T_1;\vec X(N_1)+2\cdot x(D_1)\cdot{\color{DarkOrange}d})-2\cdot \varphi_G
+(T_1;\vec X(N_1)+x(D_1)\cdot{\color{DarkOrange} d})+\varphi_G(T_1;N_1)}{{\color{DarkOrange} d}^2}) \cdot{\color{DarkBlue}c}^2+\sum_{{\color{DarkOrange} i_n}=1}^N(m({\color
+{DarkOrange}i_n})\cdot(1+{\color{DarkOrange}d})^{-\frac{\sum_
+{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})\cdot
+\frac{({\color{DarkBlue} -k_G})\cdot\pi^{\frac{2-D}{2}} \cdot 4}{{\color{DarkOrange} d}^{D}}
+
+
+#GM I
+# 1. osa
+\lim_{{\color{DarkOrange}d}\to0}\frac{\varphi_E(T_1+2\cdot{\color{DarkOrange}d};\vec X)-2\cdot \varphi_E(T_1+{\color{DarkOrange}d};\vec X)+\varphi_E(T_1;\vec X)}
+{{\color{DarkOrange} d}^2}=\lim_{{\color{DarkOrange} d}\to 0} \sum_{{\color{DarkOrange} i_d}=1}^D(\frac{\varphi_E(T_1;\vec X(N_1)+2\cdot x(D_1)\cdot{\color{DarkOrange}d})-2\cdot \varphi_E
+(T_1;\vec X(N_1)+x(D_1)\cdot{\color{DarkOrange} d})+\varphi_E(T_1;N_1)}{{\color{DarkOrange} d}^2}) \cdot
+
+
+
+#Maxwelli II lorentz gauge
+\lim_{{\color{DarkOrange} d}\to 0} \frac{A_E(T_1+2\cdot{\color{DarkOrange}d};\vec X;D_1)-2\cdot A_E(T_1+{\color{DarkOrange} d};\vec X;D_1)+A_E(T_1;\vec X;D_1)}{{\color{DarkOrange} d}^2}=\lim_{{\color{DarkOrange} d}\to 0} \sum_{{\color{DarkOrange} i_d}=1}^D(\frac{A_E(T_1;N_1;D_1+2\cdot{\color{DarkOrange}d})-2\cdot A_E(T_1;N_1;D_1+{\color{DarkOrange} d})+A_E(T_1;N_1;D_1)}{{\color{DarkOrange} d}^2}) \cdot{\color{DarkBlue}c}^2+ \sum_{{\color{DarkOrange} i_n}=1}^N(q({\color{DarkOrange}i_n})\cdot(X(T_1+{\color{DarkOrange} d};{\color{DarkOrange} i_n};D_1)-X(T_1;{\color{DarkOrange} i_n};D_1))\cdot(1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}}) \cdot \frac{{\color{DarkBlue} k_E} \cdot \pi^{\frac{2-D}{2}} \cdot 4}{{\color{DarkOrange} d}^{2 \cdot D}}
+
+
+
+#GM II lorenz gauge
+\lim_{{\color{DarkOrange} d}\to 0} \frac{A_G(T_1+2\cdot{\color{DarkOrange}d};\vec X;D_1)-2\cdot A_G(T_1+{\color{DarkOrange} d};\vec X;D_1)+A_G(T_1;\vec X;D_1)}{{\color{DarkOrange} d}^2}=\lim_{{\color{DarkOrange} d}\to 0} \sum_{{\color{DarkOrange} i_d}=1}^D(\frac{A_G(T_1;N_1;D_1+2\cdot{\color{DarkOrange}d})-2\cdot A_G(T_1;N_1;D_1+{\color{DarkOrange} d})+A_G(T_1;N_1;D_1)}{{\color{DarkOrange} d}^2}) \cdot{\color{DarkBlue}c}^2+ \sum_{{\color{DarkOrange} i_n}=1}^N(m({\color{DarkOrange}i_n})\cdot (X(T_1+{\color{DarkOrange} d};{\color{DarkOrange} i_n};D_1)-X(T_1;{\color{DarkOrange} i_n};D_1)) \cdot (1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}}) \cdot \frac{({\color{DarkBlue} -k_G}) \cdot \pi^{\frac{2-D}{2}} \cdot 4}{{\color{DarkOrange} d}^{2 \cdot D}}
+
+
+
+#lorentzi kalibratsiooni tingimus elektri
+\lim_{{\color{DarkOrange} d} \to 0} \frac{\varphi(T_1+{\color{DarkOrange} d};\vec X)-\varphi(T_1;\vec X)}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange} d} \to 0} \sum_{{\color{DarkOrange} i_d}=1}^D (\frac{A_E(T_1;\vec X+\vec x(D_1)\cdot {\color{DarkOrange} d});{\color{DarkOrange} i_d})+A_E(T_1;\vec X;{\color{DarkOrange} i_d})}{{\color{DarkOrange} d}}) \cdot {\color{DarkBlue} c}^2

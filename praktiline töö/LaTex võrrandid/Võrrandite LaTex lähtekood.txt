@@ -1,0 +1,247 @@
+https://youtu.be/DmALmLjWIN4?t=6m11s
+
+
+### Wereta1
+
+#resultant impulss
+\forall T_1((T_1\in\mathbb{R})\to p_{res}(D_1)=\lim_{{\color{DarkOrange} d} \to 0} \frac{1}{{\color{DarkOrange} d}} \cdot \sum_{{\color{DarkOrange}i_n}=1}^N(m({\color{DarkOrange}i_n})\cdot(X(T_1+{\color{DarkOrange}d};{\color{DarkOrange} i_n};D_1)-X(T_1;{\color{DarkOrange} i_n};D_1))))
+
+
+
+
+
+#resultant laeng
+q_{res}=\sum_{{\color{DarkOrange} i_n}=1}^N(q({\color{DarkOrange} i_n}))
+
+
+
+#resunalt mass
+m_{res}=\sum_{{\color{DarkOrange} i_n}=1}^N(m({\color{DarkOrange} i_n}))
+
+
+#pi
+\pi=4\cdot\sum_{{\color{DarkOrange} i}=0}^\infty (\frac{(-1)^{\color{DarkOrange} i}}{2\cdot {\color{DarkOrange} i}+1})
+
+
+
+#laengutiheduse ja laengu vaheline seos
+\rho_E(T_1;\vec X)=\lim_{{\color{DarkOrange} d} \to 0} \frac{1}{{\color{DarkOrange} d}^D \cdot \pi^{\frac{D}{2}}}\cdot \sum_{{\color{DarkOrange} i_n}=1}^N(q({\color{DarkOrange} i_n}) \cdot (1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})
+
+
+
+#massitiheduse ja massi vaheline seos
+\rho_G(T_1;\vec X)=\lim_{{\color{DarkOrange} d} \to 0} \frac{1}{{\color{DarkOrange} d}^D \cdot \pi^{\frac{D}{2}}}\cdot \sum_{{\color{DarkOrange} i_n}=1}^N(m({\color{DarkOrange} i_n}) \cdot (1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})
+
+
+
+#voolutiheduse ja voolu vaheline seos
+J_E(T_1;\vec X;D_1)=\lim_{{\color{DarkOrange} d} \to 0} \frac{1}{{\color{DarkOrange} d}^{2 \cdot D} \cdot \pi^{\frac{D}{2}}}\cdot \sum_{{\color{DarkOrange} i_n}=1}^N(q({\color{DarkOrange} i_n}) \cdot (X(T_1+{\color{DarkOrange} d};{\color{DarkOrange} i_n};D_1)-X(T_1;{\color{DarkOrange} i_n};D_1)) \cdot (1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})
+
+
+#masivoolutiheduse ja massivoolu vaheline seos
+J_G(T_1;\vec X;D_1)=\lim_{{\color{DarkOrange} d} \to 0} \frac{1}{{\color{DarkOrange} d}^{2 \cdot D} \cdot \pi^{\frac{D}{2}}}\cdot \sum_{{\color{DarkOrange} i_n}=1}^N(m({\color{DarkOrange} i_n}) \cdot (X(T_1+{\color{DarkOrange} d};{\color{DarkOrange} i_n};D_1)-X(T_1;{\color{DarkOrange} i_n};D_1)) \cdot (1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})
+
+
+
+#masivoolu ja voolu vaheline seos 3D
+\begin{cases}
+J_{x\ G}(T_1;[x;y;z])=\lim_{{\color{DarkOrange}d}\to0}\frac{1}{{\color{DarkOrange}d}^6\cdot \pi^{\frac{3}{2}}}\cdot\sum_{{\color{DarkOrange}i_n}=1}^N(m({\color{DarkOrange}i_n})\cdot(x(T_1+{\color{DarkOrange}d};{\color{DarkOrange}i_n})-x(T_1;{\color{DarkOrange}i_n}))\cdot (1+{\color{DarkOrange}d})^{\frac{-(x(T_1;{\color{DarkOrange} i_n})-x)^2-(y(T_1;{\color{DarkOrange} i_n})-y)^2-(z(T_1;{\color{DarkOrange}i_n})-z)^2}{{\color{DarkOrange}d}^3}})\\
+J_{y\ G}(T_1;[x;y;z])=\lim_{{\color{DarkOrange}d}\to0}\frac{1}{{\color{DarkOrange}d}^6\cdot \pi^{\frac{3}{2}}}\cdot\sum_{{\color{DarkOrange}i_n}=1}^N(m({\color{DarkOrange}i_n})\cdot(y(T_1+{\color{DarkOrange}d};{\color{DarkOrange}i_n})-y(T_1;{\color{DarkOrange}i_n}))\cdot (1+{\color{DarkOrange}d})^{\frac{-(x(T_1;{\color{DarkOrange} i_n})-x)^2-(y(T_1;{\color{DarkOrange} i_n})-y)^2-(z(T_1;{\color{DarkOrange}i_n})-z)^2}{{\color{DarkOrange}d}^3}})\\
+J_{z\ G}(T_1;[x;y;z])=\lim_{{\color{DarkOrange}d}\to0}\frac{1}{{\color{DarkOrange}d}^6\cdot \pi^{\frac{3}{2}}}\cdot\sum_{{\color{DarkOrange}i_n}=1}^N(m({\color{DarkOrange}i_n})\cdot(z(T_1+{\color{DarkOrange}d};{\color{DarkOrange}i_n})-z(T_1;{\color{DarkOrange}i_n}))\cdot (1+{\color{DarkOrange}d})^{\frac{-(x(T_1;{\color{DarkOrange} i_n})-x)^2-(y(T_1;{\color{DarkOrange} i_n})-y)^2-(z(T_1;{\color{DarkOrange}i_n})-z)^2}{{\color{DarkOrange}d}^3}})\\
+\end{cases}
+
+
+
+# Maxwelli võrrandid osatuletise tähisega
+\begin{cases}
+ & \sum_{i=1}^D(\frac{\partial E_i}{\partial x_i})=\frac{\partial^D q}{\partial x^D}\frac{1}{{\epsilon_0}} \\ 
+ & \frac{\partial E_a}{\partial t}=\sum_{i=1}^D(\frac{\partial B_{[i;a]}}{\partial x_i})-\frac{\partial^D q_a}{\partial t*\partial x^{D-1}} \\
+ & \frac{\partial B_{[a;b]}}{\partial t}=\frac{\partial E_b}{\partial x_a}-\frac{\partial E_a}{\partial x_b}\\
+ & \frac{\partial B_{[a;b]}}{\partial x_c}+\frac{\partial B_{[b;c]}}{\partial x_a}+\frac{\partial B_{[c;a]}}{\partial x_b}=0
+\end{cases}
+
+
+
+# Newtoni 2.
+\lim_{{\color{DarkOrange} d} \to 0} \frac{X(T+2 \cdot {\color{DarkOrange} d};N_1;D_1)-2 \cdot X(T+{\color{DarkOrange} d};N_1;D_1)+X(T;N_1;D_1)}{{\color{DarkOrange} d}^2}=\frac{F(T;N_1;D_1)}{m(N_1)}
+
+
+
+# resunaltjõu valem
+F(T;N_0;D_0)=F_{elektriline}(T;N_1;D_1)+F_{gravitatsiooniline}(T;N_1;D_1)
+
+
+
+#elektro-lorentzi jõud
+F_{elektriline}(T;N_0;D_0)=q(N_0) \cdot (E(T;\vec X(T;N_0);D_0)+\lim_{{\color{DarkOrange} d} \to 0} \sum_{{\color{DarkOrange} i}=1}^D(\frac{X(T+{\color{DarkOrange} d};N_0;{\color{DarkOrange} i})-X(T;N_0;{\color{DarkOrange} i})}{{\color{DarkOrange} dt}} \cdot B(T;\vec X(T;N_0);D_0;{\color{DarkOrange} i})))
+
+
+
+#MW 1.
+\lim_{{\color{DarkOrange} d} \to 0} \sum_{{\color{DarkOrange} i}=1}^D(\frac{E(T;\vec X+{\color{DarkOrange} d} \vec x({\color{DarkOrange}i});{\color{DarkOrange} i})-E(T;\vec X;{\color{DarkOrange} i})}{{\color{DarkOrange} d}})=\frac{\rho_E(\vec T;X)}{ {\color{DarkBlue} \epsilon_{0}}}
+
+
+#MW 2.
+\lim_{{\color{DarkOrange} d} \to 0} \frac{B_E(T;\vec X+{\color{DarkOrange} d} \cdot x(D_3);D_1;D_2)+B_E(T;\vec X+{\color{DarkOrange} d} \cdot x(D_1);D_2;D_3)+B_E(T;\vec X+{\color{DarkOrange} d} \cdot x(D_2);D_3;D_1)-B_E(T;\vec X;D_3;D_1)-B_E(T;\vec X;D_2;D_3)-B_E(T;\vec X;D_1;D_2)}{{\color{DarkOrange}d}}=0
+
+
+#MW 4.
+\lim_{{\color{DarkOrange}d} \to 0} \frac{A_E(T+{\color{DarkOrange}d};\vec X;D_1)-A_E(T;\vec X;D_1)}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d} \to 0} \sum_{{\color{DarkOrange}i}=1}^D(\frac{B_E(T;\vec X+{\color{DarkOrange}d}\cdot \vec x({\color{DarkOrange}i});{\color{DarkOrange}i};D_1)-B_E(T;\vec X;{\color{DarkOrange}i};D_1)}{{\color{DarkOrange}d}}) \cdot {\color{DarkBlue}c}^2-J_E(T;\vec X; D_1)\cdot{\color{DarkBlue}k_E} \cdot \pi \cdot 4
+
+
+
+#MW 3.
+\lim_{{\color{DarkOrange} d} \to 0} \frac{B(T+{\color{DarkOrange} d};\vec X;D_1;D_2)-B(T;\vec X;D_1;D_2)}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange} d} \to 0} \frac{E(T;\vec X +{\color{DarkOrange} d} \cdot \vec x(D_1));D_2)-E(T;\vec X +{\color{DarkOrange} d} \cdot \vec x(D_2));D_1)+E(T;\vec X;D_1)-E(T;\vec X;D_2)}{{\color{DarkOrange} d}}
+
+
+
+
+#elektro-lorentz 3D
+\begin{cases}&F_{E\ x}(N_0;T)=q(N_0)\cdot(A_{E\ x}(T;[x(N_0);y(N_0);z(N_0)])+\lim_{{\color{DarkOrange}dt}\to0}(\frac{z(N_0;T+{\color{DarkOrange}dt})-z(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{E\ y}(T;[x(N_0);y(N_0);z(N_0)])-\frac{y(N_0;T+{\color{DarkOrange}dt})-y(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{E\ z}(T;[x(N_0);y(N_0);z(N_0)])))\\&\\&F_{E\ y}(N_0;T)=q(N_0)\cdot(A_{E\ y}(T;[x(N_0);y(N_0);z(N_0)])+\lim_{{\color{DarkOrange}dt}\to0}(\frac{z(N_0;T+{\color{DarkOrange}dt})-z(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{E\ x}(T;[x(N_0);y(N_0);z(N_0)])-\frac{x(N_0;T+{\color{DarkOrange}dt})-x(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{E\ z}(T;[x(N_0);y(N_0);z(N_0)])))\\&\\&F_{E\ z}(N_0;T)=q(N_0)\cdot(A_{E\ z}(T;[x(N_0);y(N_0);z(N_0)])+\lim_{{\color{DarkOrange}dt}\to0}(\frac{x(N_0;T+{\color{DarkOrange}dt})-x(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{E\ y}(T;[x(N_0);y(N_0);z(N_0)])-\frac{y(N_0;T+{\color{DarkOrange}dt})-y(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{E\ x}(T;[x(N_0);y(N_0);z(N_0)])))\end{cases}
+
+
+
+#MW 1. 3D
+\lim_{{\color{DarkOrange} d} \to 0} (\frac{A_{E\ x}(T;[x+{\color{DarkOrange} d};y;z])+A_{E\ y}(T;[x;y+{\color{DarkOrange}d};z])+A_{E\ z}(T;[x;y;z+{\color{DarkOrange} d}])-A_{E\ x}(T;[x;y;z])-A_{E\ y}(T;[x;y;z])-A_{E\ z}(T;[x;y;z])}{{\color{DarkOrange} d}})=\rho_E(T;[x;y;z]) \cdot {\color{DarkBlue} k_E}\cdot \pi \cdot 4
+
+
+
+# resultantjõu valem 3D
+\begin{cases}
+ & F_x(T_1;N_1)=F_{E\ x}(T_1;N_1)+F_{G\ x}(T_1;N_1) \\ 
+ & F_y(T_1;N_1)=F_{E\ y}(T_1;N_1)+F_{G\ y}(T_1;N_1) \\ 
+ & F_z(T_1;N_1)=F_{E\ z}(T_1;N_1)+F_{G\ z}(T_1;N_1) \\ 
+\end{cases}
+
+
+
+MW 2. 3D
+\lim_{{\color{DarkOrange}d} \to 0} \frac{B_{E\ x}(T;[x+{\color{DarkOrange}d};y;z])+B_{E\ y}(T;[x;y+{\color{DarkOrange}d};z])+B_{E\ z}(T;[x;y;z+{\color{DarkOrange}d}])-B_{E\ x}(T;[x;y;z])-B_{E\ y}(T;[x;y;z])-B_{E\ z}(T;[x;y;z])}{{\color{DarkOrange} d}}=0
+
+
+
+#MW 3. 3D
+\begin{cases}&\lim_{{\color{DarkOrange}d}\to 0}\frac{B_{E\ x}(T+{\color{DarkOrange} d};[x;y;z])-B_{E\ x}(T;[x;y;z])}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange}d}\to 0} \frac{A_{E\ y}(T;[x;y;z+{\color{DarkOrange} d}])-A_{E\ z}(T;[x;y+{\color{DarkOrange} d};z])-A_{E\ y}(T;[x;y;z])+A_{E\ z}(T;[x;y;z])}{{\color{DarkOrange} d}}\\&\\
+&\lim_{{\color{DarkOrange} d} \to 0} \frac{B_{E\ y}(T+{\color{DarkOrange} d};[x;y;z])-B_{E\ y}(T;[x;y;z])}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange} d}\to 0}\frac{A_{E\ z}(T;[x+{\color{DarkOrange} d};y;z])-A_{E\ x}(T;[x;y;z+{\color{DarkOrange} d}])-A_{E\ z}(T;[x;y;z])+A_{E\ x}(T;[x;y;z])}{{\color{DarkOrange} d}}\\&\\
+& \lim_{{\color{DarkOrange} d} \to 0} \frac{B_{E\ z}(T+{\color{DarkOrange} d};[x;y;z])-B_{E\ z}(T;[x;y;z])}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange} d} \to 0} \frac{A_{E\ x}(T;[x;y+{\color{DarkOrange} d};z])-A_{E\ y}(T;[x+{\color{DarkOrange}d};y;z])-A_{E\ x}(T;[x;y;z])+A_{E\ y}(T;[x;y;z])}{{\color{DarkOrange} d}} \end{cases}
+
+
+
+#MW 4. 3D
+\begin{cases}
+&\lim_{{\color{DarkOrange}d}\to 0}\frac{A_{E\ x}(T+{\color{DarkOrange}d};[x;y;z])-A_{E\ x}(T;[x;y;z])}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d}\to0}(\frac{B_{E\ z}(T;[x;y+{\color{DarkOrange} d};z])-B_{E\ y}(T;[x;y;z+{\color{DarkOrange}d}])-B_{E\ z}(T;[x;y;z])+B_{E\ z}(T;[x;y;z])}{{\color{DarkOrange}d}})\cdot {\color{DarkBlue}c}^2-J_{E\ x}(T;[x;y;z])
+{\color{DarkBlue}}\cdot {\color{DarkBlue} k_E} \cdot \pi \cdot 4\\
+&\\&\lim_{{\color{DarkOrange}d}\to 0}\frac{A_{E\ y}(T+{\color{DarkOrange}d};[x;y;z])-A_{E\ y}(T;[x;y;z])}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d}\to0}(\frac{B_{E\ x}(T;[x;y+{\color{DarkOrange}d};z])-B_{E\ z}(T;[x;y;z+{\color{DarkOrange} d}])-B_{E\ x}(T;[x;y;z])+B_{E\ z}(T;[x;y;z])}{{\color{DarkOrange}d}})\cdot{\color{DarkBlue}c}^2-
+J_{ E\ y}(T;[x;y;z])\cdot{\color{DarkBlue}k_E} \cdot \pi \cdot 4\\&\\&\lim_{{\color{DarkOrange}d}\to 0} \frac{A_{E\ z}(T+{\color{DarkOrange}d};
+[x;y;z])-A_{E\ z}(T;[x;y;z])}{{\color{DarkOrange}d}}=\\
+\end{cases}
+
+
+
+
+
+
+#gravitolorentz 3D
+\begin{cases}&F_{G\ x}(N_0;T)=m(N_0)\cdot(A_{G\ x}(T;[x(N_0);y(N_0);z(N_0)])+\lim_{{\color{DarkOrange}dt}\to0}(\frac{z(N_0;T+{\color{DarkOrange}dt})-z(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{G\ y}(T;[x(N_0);y(N_0);z(N_0)])-\frac{y(N_0;T+{\color{DarkOrange}dt})-y(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{G\ z}(T;[x(N_0);y(N_0);z(N_0)])))\\&\\&F_{G\ y}(N_0;T)=m(N_0)\cdot(A_{G\ y}(T;[x(N_0);y(N_0);z(N_0)])+\lim_{{\color{DarkOrange}dt}\to0}(\frac{z(N_0;T+{\color{DarkOrange}dt})-z(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{G\ x}(T;[x(N_0);y(N_0);z(N_0)])-\frac{x(N_0;T+{\color{DarkOrange}dt})-x(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{G\ z}(T;[x(N_0);y(N_0);z(N_0)])))\\&\\&F_{G\ z}(N_0;T)=m(N_0)\cdot(A_{G\ z}(T;[x(N_0);y(N_0);z(N_0)])+\lim_{{\color{DarkOrange}dt}\to0}(\frac{x(N_0;T+{\color{DarkOrange}dt})-x(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{G\ y}(T;[x(N_0);y(N_0);z(N_0)])-\frac{y(N_0;T+{\color{DarkOrange}dt})-y(N_0;T)}{{\color{DarkOrange}dt}}\cdot B_{G\ x}(T;[x(N_0);y(N_0);z(N_0)])))\end{cases}
+
+
+
+#gravitoLorentz üld
+F_{G}(T;N_1;D_1)=m(N_1) \cdot (A_G(T;\vec X(T;N_1);D_1)+\lim_{{\color{DarkOrange} d} \to 0} \sum_{{\color{DarkOrange} i}=1}^D(\frac{X(T+{\color{DarkOrange} d};N_1;{\color{DarkOrange} i})-X(T;N_1;{\color{DarkOrange} i})}{{\color{DarkOrange} dt}} \cdot B_G(T;\vec X(T;N_1);D_1;{\color{DarkOrange} i}))\cdot 4)
+
+
+
+#GM I 3D
+\lim_{{\color{DarkOrange} d} \to 0} (\frac{A_{G\ x}(T;[x+{\color{DarkOrange} d};y;z])+A_{G\ y}(T;[x;y+{\color{DarkOrange}d};z])+A_{G\ z}(T;[x;y;z+{\color{DarkOrange} d}])-A_{G\ x}(T;[x;y;z])-A_{G\ y}(T;[x;y;z])-A_{G\ z}(T;[x;y;z])}{{\color{DarkOrange} d}})=-4\cdot\pi\cdot {\color{DarkBlue} k_G }\cdot  \rho_G(T;[x;y;z])
+
+
+
+#GM II 3D
+\lim_{{\color{DarkOrange}d} \to 0} \frac{B_{G\ x}(T;[x+{\color{DarkOrange}d};y;z])+B_{G\ y}(T;[x;y+{\color{DarkOrange}d};z])+B_{G\ z}(T;[x;y;z+{\color{DarkOrange}d}])-B_{G\ x}(T;[x;y;z])-B_{G\ y}(T;[x;y;z])-B_{G\ z}(T;[x;y;z])}{{\color{DarkOrange} d}}=0
+
+
+
+#GM III 3D
+\begin{cases}&\lim_{{\color{DarkOrange}d}\to 0}\frac{B_{G\ x}(T+{\color{DarkOrange} d};[x;y;z])-B_{G\ x}(T;[x;y;z])}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange}d}\to 0} \frac{A_{G\ y}(T;[x;y;z+{\color{DarkOrange} d}])-A_{G\ z}(T;[x;y+{\color{DarkOrange} d};z])-A_{G\ y}(T;[x;y;z])+A_{G\ z}(T;[x;y;z])}{{\color{DarkOrange} d}}\\&\\
+&\lim_{{\color{DarkOrange} d} \to 0} \frac{B_{G\ y}(T+{\color{DarkOrange} d};[x;y;z])-B_{G\ y}(T;[x;y;z])}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange} d}\to 0}\frac{A_{G\ z}(T;[x+{\color{DarkOrange} d};y;z])-A_{G\ x}(T;[x;y;z+{\color{DarkOrange} d}])-A_{G\ z}(T;[x;y;z])+A_{G\ x}(T;[x;y;z])}{{\color{DarkOrange} d}}\\&\\
+& \lim_{{\color{DarkOrange} d} \to 0} \frac{B_{G\ z}(T+{\color{DarkOrange} d};[x;y;z])-B_{G\ z}(T;[x;y;z])}{{\color{DarkOrange} d}}=\lim_{{\color{DarkOrange} d} \to 0} \frac{A_{G\ x}(T;[x;y+{\color{DarkOrange} d};z])-A_{G\ y}(T;[x+{\color{DarkOrange}d};y;z])-A_{G\ x}(T;[x;y;z])+A_{G\ y}(T;[x;y;z])}{{\color{DarkOrange} d}} \end{cases}
+
+
+
+#GM IV 3D
+\begin{cases}&\lim_{{\color{DarkOrange}d}\to 0}\frac{A_{G\ x}(T+{\color{DarkOrange}d};[x;y;z])-A_{G\ x}(T;[x;y;z])}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d}\to0}(\frac{B_{G\ z}(T;[x;y+{\color{DarkOrange} d};z])-B_{G\ y}(T;[x;y;z+{\color{DarkOrange}d}])-B_{G\ z}(T;[x;y;z])+B_{G\ z}(T;[x;y;z])}{{\color{DarkOrange}d}})\cdot {\color{DarkBlue}c}^2-J_{G\ x}(T;[x;y;z]){\color{DarkBlue}}\cdot {\color{DarkBlue} k_G} \cdot \pi \cdot 4\\
+&\\&\lim_{{\color{DarkOrange}d}\to 0}\frac{A_{G\ y}(T+{\color{DarkOrange}d};[x;y;z])-A_{G\ y}(T;[x;y;z])}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d}\to0}(\frac{B_{G\ x}(T;[x;y;z+{\color{DarkOrange}d}])-B_{G\ z}(T;[x+{\color{DarkOrange}d};y;z])-B_{G\ x}(T;[x;y;z])+B_{G\ z}(T;[x;y;z])}{{\color{DarkOrange}d}})\cdot{\color{DarkBlue}c}^2-
+J_{ G\ y}(T;[x;y;z]) \cdot{\color{DarkBlue}k_G} \cdot \pi \cdot 4\\&\\&\lim_{{\color{DarkOrange}d}\to 0} \frac{A_{G\ z}(T+{\color{DarkOrange}d};
+[x;y;z])-A_{G\ z}(T;[x;y;z])}{{\color{DarkOrange}d}}=\\
+\end{cases}
+
+
+
+#GM I üld
+\lim_{{\color{DarkOrange} d} \to 0} \sum_{{\color{DarkOrange} i}=1}^D(\frac{A_G(T;\vec X+{\color{DarkOrange} d} \vec x({\color{DarkOrange}i});{\color{DarkOrange} i})-A_G(T;\vec X;{\color{DarkOrange} i})}{{\color{DarkOrange} d}})=\rho_G(T;\vec X) \cdot (-{\color{DarkBlue} k_G}) \cdot \pi \cdot 4
+
+
+
+#GM IV üld
+\lim_{{\color{DarkOrange}d} \to 0} \frac{A_G(T+{\color{DarkOrange}d};\vec X;D_1)-A_G(T;\vec X;D_1)}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d} \to 0} \sum_{{\color{DarkOrange}i_d}=1}^D(\frac{B_G(T;\vec X+{\color{DarkOrange}d} \cdot \vec x({\color{DarkOrange}i_d});{\color{DarkOrange}i_d};D_1)-B_G(T;\vec X;{\color{DarkOrange}i_d};D_1)}{{\color{DarkOrange}d}}) \cdot {\color{DarkBlue}c}^2-J(T;\vec X; D_1)\cdot(-{\color{DarkBlue}k_G}) \cdot \pi \cdot 4
+
+
+
+#GEM N-keha probleemi I võrrand diferentsiaal kujul; magnetväli asendamata; 1.pool
+\lim_{{\color{DarkOrange} d} \to 0} \frac{X(T_1+2 \cdot {\color{DarkOrange} d};N_1;D_1)-2 \cdot X(T_1+{\color{DarkOrange} d};N_1;D_1)+X(T_1;N_1;D_1)}{{\color{DarkOrange} d}^2}=\lim_{{\color{DarkOrange} d}\to0}(q(N_1)\cdot\frac{A_E(T_1;\vec X(T_1;N_1);D_1)+\sum_{{\color{DarkOrange} i_3}=1}^D(\frac{X(T_1+{\color{DarkOrange} d};N_1;{\color{DarkOrange} i_3})-X(T_1;N_1;{\color{DarkOrange}i_3})}{{\color{DarkOrange} d}}\cdot B_E(T_1;\vec X(T_1;N_1);D_1;{\color{DarkOrange} i}))}{m(N_1)}+
+
+#GEM N-keha probleemi I võrrand diferentsiaal kujul; magnetväli asendamata; 2.pool
+A_G(T;\vec X(T;N_1);D_1)+\sum_{{\color{DarkOrange} i}=1}^D(\frac{X(T_1+{\color{DarkOrange} d};N_1;{\color{DarkOrange} i})-X(T_1;N_1;{\color{DarkOrange}i})}{{\color{DarkOrange} d}} \cdot B_G(T_1;\vec X(T_1;N_1);D_1;{\color{DarkOrange} i}))\cdot 4)
+
+
+
+#GEM N-keha probleemi I võrrand diferentsiaal kujul; 1.osa
+\lim_{{\color{DarkOrange} d} \to 0} \frac{X(T_1+2 \cdot {\color{DarkOrange} d};N_1;D_1)-2 \cdot X(T_1+{\color{DarkOrange} d};N_1;D_1)+X(T_1;N_1;D_1)}{{\color{DarkOrange} d}^2}=\lim_{{\color{DarkOrange} d}\to0}(q(N_1)\cdot\frac{A_E(T_1;\vec X(T_1;N_1);D_1)+\sum_{{\color{DarkOrange} i_3}=1}^D(\frac{X(T_1+{\color{DarkOrange} d};N_1;{\color{DarkOrange} i_3})-X(T_1;N_1;{\color{DarkOrange}i_3})}{{\color{DarkOrange} d}}\cdot B_E(T_1;\vec X(T_1;N_1);D_1;{\color{DarkOrange} i}))}{m(N_1)}+
+
+#GEM N-keha probleemi I võrrand diferentsiaal kujul; 2.osa
+A_G(T;\vec X(T;N_1);D_1)+\sum_{{\color{DarkOrange} i}=1}^D(\frac{X(T_1+{\color{DarkOrange} d};N_1;{\color{DarkOrange} i})-X(T_1;N_1;{\color{DarkOrange}i})}{{\color{DarkOrange} d}} \cdot B_G(T_1;\vec X(T_1;N_1);D_1;{\color{DarkOrange} i}))\cdot 4)
+
+
+
+#GEM N-keha probleemi I võrrand 1.osa
+X(T_2;N_1;D_1)=\lim_{{\color{DarkOrange} d}\to0}(X(T_1;N_1;D_1)+(T_2-T_1)\cdot\frac{X(T_1+{\color{DarkOrange} d};N_1;D_1)-X(T_1;N_1;D_1)}{{\color{DarkOrange} d}}+{\color{DarkOrange} d}^2 \cdot\sum_{{\color{DarkOrange} i_1}=\frac{T_1}{{\color{DarkOrange}d}}}^{\frac{T_2}{{\color{DarkOrange}d}}}(\sum_{{\color{DarkOrange}i_{t2}}=\frac{T_1}{{\color{DarkOrange} d}}}^{{\color{DarkOrange}i_{t1}}}(\frac{q(N_1)}{m(N_1)}(
+
+#GEM N-keha probleemi I võrrand 2.osa
+A_E({\color{DarkOrange}i_{t2}}\cdot {\color{DarkOrange}d};\vec X({\color{DarkOrange}i_{t2}}\cdot{\color{DarkOrange}d};N_1);D_1)+\sum_{{\color{DarkOrange}i_d}=1}^D(\frac{X({\color{DarkOrange}i_{t2}} \cdot {\color{DarkOrange} d}+{\color{DarkOrange}d};N_1;{\color{DarkOrange}i_d})-X({\color{DarkOrange}i_{t2}\cdot d};N_1;{\color{DarkOrange}i_d})}{{\color{DarkOrange}d}}\cdot((A_E({\color{DarkOrange}i_{t3}}\cdot {\color{DarkOrange}d};\vec X+{\color{DarkOrange}d} \cdot \vec x(D_1);D_2)-A_E({\color{DarkOrange}i_{t3}}\cdot {\color{DarkOrange}d};\vec X +{\color{DarkOrange}d}\cdot\vec x(D_2);D_1)+
+
+#GEM N-keha probleemi I võrrand 3.osa
+A_E({\color{DarkOrange}i_{t3}}\cdot {\color{DarkOrange}d};\vec X;D_1)-A_E({\color{DarkOrange}i_{t3}}\cdot {\color{DarkOrange}d};\vec X;D_2))\cdot(T_2-T_1)+\sum_{{\color{DarkOrange} i_{t3}}=\frac{T_1}{{\color{DarkOrange}d}}}^{\frac{T_2}{{\color{DarkOrange}d}}}(A_E({\color{DarkOrange}i_{t3}}\cdot {\color{DarkOrange}d};\vec X+{\color{DarkOrange}d} \cdot \vec x(D_1);D_2)-
+
+#GEM N-keha probleemi I võrrand 4.osa
+A_G(T;\vec X(T;N_1);D_1)+\sum_{{\color{DarkOrange} i_3}=1}^D(\frac{X(T_1+{\color{DarkOrange} d};N_1;{\color{DarkOrange} i})-X(T_1;N_1;{\color{DarkOrange}i})}{{\color{DarkOrange} d}} \cdot \sum_{{\color{DarkOrange} i_4}=\frac{T_1}{{\color{DarkOrange}d}}}^{\frac{T_2}{{\color{DarkOrange}d}}}(A_E(T;\vec X+{\color{DarkOrange}d} \cdot \vec x(D_1);D_2)-A_E(T;\vec X +{\color{DarkOrange}d}\cdot\vec x(D_2);D_1)+A_E(T;\vec X;D_1)-
+
+#GEM N-keha probleemi I võrrand 4.osa
+A_E(T;\vec X;D_2))))\cdot 4)
+
+
+
+#GM I punktmassidega ruumile
+\lim_{{\color{DarkOrange}d}\to0}\sum_{{\color{DarkOrange} i_d}=1}^D(\frac{A_G(T;\vec X+{\color{DarkOrange}d}\vec x({\color{DarkOrange}i_d});{\color{DarkOrange}i_d})-A_G(T;\vec X;{\color{DarkOrange}i_d})}{{\color{DarkOrange}d}})=\lim_{{\color{DarkOrange}d}\to 0} \sum_{{\color{DarkOrange}i_n}=1}^N(m({\color{DarkOrange}i_n})\cdot(1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}}) \cdot \frac{ (-{\color{DarkBlue} k_G})\cdot \pi^{\frac{2-D}{2}}\cdot4}{{\color{DarkOrange} d}^D}
+
+
+#EM I punktmasslaengutega ruumile
+\lim_{{\color{DarkOrange}d}\to0}\sum_{{\color{DarkOrange} i_d}=1}^D(\frac{A_E(T;\vec X+{\color{DarkOrange}d}\vec x({\color{DarkOrange}i_d});{\color{DarkOrange}i_d})-A_E(T;\vec X;{\color{DarkOrange}i_d})}{{\color{DarkOrange}d}})=\lim_{{\color{DarkOrange}d}\to 0} \sum_{{\color{DarkOrange}i_n}=1}^N(q({\color{DarkOrange}i_n})\cdot(1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}}) \cdot \frac{ {\color{DarkBlue} k_E}\cdot \pi^{\frac{2-D}{2}}\cdot4}{{\color{DarkOrange} d}^D}
+
+
+
+#GM IV punktmassidega ruumile
+\lim_{{\color{DarkOrange}d} \to 0} \frac{A_G(T+{\color{DarkOrange}d};\vec X;D_1)-A_G(T;\vec X;D_1)}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d} \to 0} \sum_{{\color{DarkOrange}i_d}=1}^D(\frac{B_G(T;\vec X+{\color{DarkOrange}d} \cdot \vec x({\color{DarkOrange}i_d});{\color{DarkOrange}i_d};D_1)-B_G(T;\vec X;{\color{DarkOrange}i_d};D_1)}{{\color{DarkOrange}d}}) \cdot {\color{DarkBlue}c}^2-   \sum_{{\color{DarkOrange} i_n}=1}^N(m({\color{DarkOrange} i_n}) \cdot (X(T_1+{\color{DarkOrange} d};{\color{DarkOrange} i_n};D_1)-X(T_1;{\color{DarkOrange} i_n};D_1)) \cdot (1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})  \cdot \frac{({\color{DarkBlue}-k_G}) \cdot \pi^{\frac{2-D}{2}} \cdot 4}{{\color{DarkOrange} d}^{2 \cdot D}}
+
+
+#EM IV punktlaengutega ruumile
+\lim_{{\color{DarkOrange}d} \to 0} \frac{A_E(T_1+{\color{DarkOrange}d};\vec X;D_1)-A_E(T;\vec X;D_1)}{{\color{DarkOrange}d}}=\lim_{{\color{DarkOrange}d} \to 0} \sum_{{\color{DarkOrange}i_d}=1}^D(\frac{B_E(T_1;\vec X+{\color{DarkOrange}d} \cdot \vec x({\color{DarkOrange}i_d});{\color{DarkOrange}i_d};D_1)-B_E(T_1;\vec X;{\color{DarkOrange}i_d};D_1)}{{\color{DarkOrange}d}}) \cdot {\color{DarkBlue}c}^2-   \sum_{{\color{DarkOrange} i_n}=1}^N(q({\color{DarkOrange} i_n}) \cdot (X(T_1+{\color{DarkOrange} d};{\color{DarkOrange} i_n};D_1)-X(T_1;{\color{DarkOrange} i_n};D_1)) \cdot (1+{\color{DarkOrange} d})^{-\frac{\sum_{{\color{DarkOrange} i_d}=1}^D ((X(T_1;{\color{DarkOrange} i_n};{\color{DarkOrange} i_d})-\vec X({\color{DarkOrange} i_d}))^2)}{{\color{DarkOrange} d}^3}})  \cdot \frac{{\color{DarkBlue}k_E} \cdot \pi^{\frac{2-D}{2}} \cdot 4}{{\color{DarkOrange} d}^{2 \cdot D}}Ž
+
+MÄRKMETESSE KIRJA:
+
+
+
+
+
+
+
+küsida eesti zionistlikutelt poliitikutelt, et kas nad peaad end eelkõige eestlaseks või juutideks.
